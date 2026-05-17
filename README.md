@@ -1,11 +1,25 @@
-# Automotive Demand Forecasting Dashboard  
-## Yazaki / Mercedes-Benz Supply Chain Forecasting Case Study
+<div align="center">
 
-<p align="center">
-  <img src="assets/Mercedes_Benz.jpg" alt="Mercedes-Benz Logo" width="360"/>
-  <br><br>
-  <img src="assets/Yazaki%20Logo.png" alt="Yazaki Logo" width="360"/>
-</p>
+# Automotive Demand Forecasting Dashboard
+
+### Yazaki / Mercedes-Benz Supply Chain Forecasting Case Study
+
+<br>
+
+<img src="./assets/Mercedes_Benz.jpg" alt="Mercedes-Benz Logo" width="330"/>
+
+<br><br>
+
+<img src="./assets/Yazaki%20Logo.png" alt="Yazaki Logo" width="330"/>
+
+<br><br>
+
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
+![Forecasting](https://img.shields.io/badge/Forecasting-Time%20Series-success)
+![BI](https://img.shields.io/badge/BI-Dashboard%20Reporting-orange)
+![Industry](https://img.shields.io/badge/Industry-Automotive-lightgrey)
+
+</div>
 
 ---
 
@@ -13,24 +27,40 @@
 
 This project is a professional **automotive demand forecasting and data analytics case study** inspired by supply-chain and production-planning scenarios in a **Yazaki / Mercedes-Benz automotive environment**.
 
-The objective is to analyze historical demand data, identify trends and seasonality, and generate reliable forecasts that support better decision-making in **production planning, inventory control, supplier coordination, and operational performance**.
+The objective is to analyze historical demand data, identify demand patterns, detect trends and seasonality, and generate reliable forecasts that support better decisions in:
 
-In automotive manufacturing, weak forecasting can create serious operational problems such as **material shortages, overstock, delayed production, inefficient resource planning, and higher operational costs**. This project demonstrates how Python-based analytics can transform raw demand data into clear, visual, and business-ready forecasting insights.
+- Production planning  
+- Inventory control  
+- Supplier coordination  
+- Material availability  
+- Operational performance  
+
+In automotive manufacturing, poor forecasting can lead to **material shortages, overstock, delayed production, unstable planning, and higher operational costs**.  
+This project shows how Python-based analytics can turn raw demand data into clear, visual, and business-ready forecasting insights.
 
 ---
 
 ## Business Problem
 
-Automotive suppliers must ensure that the right components are available at the right time. Demand can change because of production schedules, customer orders, seasonal behavior, delivery priorities, and market fluctuations.
+Automotive suppliers need accurate demand visibility to make sure the right components are available at the right time.
 
-This project focuses on answering key operational questions:
+Demand can change because of:
+
+- Customer orders  
+- Production schedules  
+- Seasonal demand behavior  
+- Delivery priorities  
+- Market fluctuations  
+- Supplier and logistics constraints  
+
+This project focuses on answering key business questions:
 
 - How does demand develop over time?
-- Which periods show high or low demand?
+- Which months show high or low demand?
 - Are there visible trends or seasonal patterns?
 - What future demand can be expected?
 - How can forecasting improve production and inventory planning?
-- How can data visualization support faster business decisions?
+- How can visual reporting support faster operational decisions?
 
 ---
 
@@ -43,41 +73,37 @@ flowchart LR
     C --> D[Trend and Seasonality Detection]
     D --> E[Forecasting Model]
     E --> F[Forecast Evaluation]
-    F --> G[Business Dashboard]
+    F --> G[Dashboard Reporting]
     G --> H[Production and Inventory Insights]
 ```
 
 The workflow follows a complete analytics process:
 
-1. Import and prepare demand data  
+1. Import and structure demand data  
 2. Clean missing, duplicated, or inconsistent values  
 3. Analyze historical demand behavior  
 4. Visualize trends and seasonality  
 5. Build forecasting models  
 6. Compare actual demand with predicted demand  
 7. Evaluate forecast accuracy  
-8. Present insights in dashboard-style visuals  
+8. Present insights through dashboard-style reporting  
 
 ---
 
 ## Key Features
 
-- Historical demand analysis  
-- Data cleaning and preprocessing  
-- Trend and seasonality detection  
-- Demand forecasting workflow  
-- Actual vs. forecast comparison  
-- Forecast accuracy evaluation  
-- KPI reporting  
-- Dashboard-style visualization  
-- Automotive supply-chain use case  
-- Business-oriented interpretation of results  
+| Area | Description |
+|---|---|
+| Data Preparation | Cleaning, formatting, and preparing demand data |
+| Demand Analysis | Historical demand investigation and pattern recognition |
+| Forecasting | Future demand prediction using time-series logic |
+| KPI Reporting | Business metrics for planning and performance tracking |
+| Visual Analytics | Charts and dashboard-style insights |
+| Business Interpretation | Translating data results into operational decisions |
 
 ---
 
 ## Dashboard & Visual Analytics
-
-This project uses code-based visual documentation to present the forecasting logic, business flow, and demand patterns directly inside the GitHub README.
 
 ### Monthly Demand Trend
 
@@ -133,11 +159,11 @@ flowchart LR
 | KPI | Purpose |
 |---|---|
 | Total Demand | Measures overall component demand volume |
-| Average Monthly Demand | Shows baseline demand level |
+| Average Monthly Demand | Shows the baseline demand level |
 | Demand Growth | Identifies increasing or decreasing demand |
 | Forecast Accuracy | Measures prediction quality |
 | Forecast Error | Highlights model deviation |
-| Peak Demand Period | Supports capacity planning |
+| Peak Demand Period | Supports capacity and resource planning |
 | Low Demand Period | Supports inventory optimization |
 
 ---
@@ -163,18 +189,15 @@ For an automotive supplier environment connected to Mercedes-Benz production sce
 
 ## Technologies Used
 
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Scikit-learn  
-- Time-Series Analysis  
-- Forecasting Models  
-- Jupyter Notebook  
-- CSV / Excel Data Processing  
-- Business Intelligence Reporting  
-- Data Visualization  
+| Category | Tools |
+|---|---|
+| Programming | Python |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Forecasting | Time-Series Analysis, Scikit-learn |
+| Environment | Jupyter Notebook |
+| Data Handling | CSV, Excel |
+| Reporting | Business Intelligence Dashboard Logic |
 
 ---
 
@@ -233,6 +256,8 @@ This project is an educational and portfolio case study. Yazaki and Mercedes-Ben
 
 ---
 
+<div align="center">
+
 ## Author
 
 **Hani Mohamed Salah**  
@@ -240,3 +265,5 @@ IT Operations & Data Analytics
 Berlin, Germany  
 
 GitHub: [hany69x](https://github.com/hany69x)
+
+</div>

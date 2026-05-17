@@ -1,32 +1,62 @@
 # Automotive Demand Forecasting Dashboard  
 ## Yazaki / Mercedes-Benz Supply Chain Forecasting Case Study
 
-![Yazaki Logo](assets/yazaki-logo.png)
-![Mercedes-Benz Logo](assets/mercedes-logo.png)
+<p align="center">
+  <img src="assets/Mercedes_Benz.jpg" alt="Mercedes-Benz Logo" width="360"/>
+  <br><br>
+  <img src="assets/Yazaki%20Logo.png" alt="Yazaki Logo" width="360"/>
+</p>
 
 ---
 
 ## Project Overview
 
-This project is a professional **automotive demand forecasting and data analytics case study** inspired by supply-chain and production-planning scenarios in the **Yazaki / Mercedes-Benz automotive environment**.
+This project is a professional **automotive demand forecasting and data analytics case study** inspired by supply-chain and production-planning scenarios in a **Yazaki / Mercedes-Benz automotive environment**.
 
-The objective is to analyze historical demand data, detect trends and seasonality, and generate reliable forecasts that support better decisions in production, inventory, and supplier coordination.
+The objective is to analyze historical demand data, identify trends and seasonality, and generate reliable forecasts that support better decision-making in **production planning, inventory control, supplier coordination, and operational performance**.
 
-In the automotive industry, inaccurate demand forecasting can create serious operational problems such as material shortages, overstock, delayed production, inefficient planning, and higher costs. This project shows how data analytics and forecasting can transform raw demand data into clear, actionable business insights.
+In automotive manufacturing, weak forecasting can create serious operational problems such as **material shortages, overstock, delayed production, inefficient resource planning, and higher operational costs**. This project demonstrates how Python-based analytics can transform raw demand data into clear, visual, and business-ready forecasting insights.
 
 ---
 
 ## Business Problem
 
-Automotive suppliers need accurate demand planning to keep production stable and ensure that the right components are available at the right time.
+Automotive suppliers must ensure that the right components are available at the right time. Demand can change because of production schedules, customer orders, seasonal behavior, delivery priorities, and market fluctuations.
 
-This project focuses on answering key business questions:
+This project focuses on answering key operational questions:
 
-- How does demand change over time?
+- How does demand develop over time?
 - Which periods show high or low demand?
-- Are there seasonal or repeated demand patterns?
+- Are there visible trends or seasonal patterns?
 - What future demand can be expected?
 - How can forecasting improve production and inventory planning?
+- How can data visualization support faster business decisions?
+
+---
+
+## Forecasting Workflow
+
+```mermaid
+flowchart LR
+    A[Raw Demand Data] --> B[Data Cleaning]
+    B --> C[Exploratory Data Analysis]
+    C --> D[Trend and Seasonality Detection]
+    D --> E[Forecasting Model]
+    E --> F[Forecast Evaluation]
+    F --> G[Business Dashboard]
+    G --> H[Production and Inventory Insights]
+```
+
+The workflow follows a complete analytics process:
+
+1. Import and prepare demand data  
+2. Clean missing, duplicated, or inconsistent values  
+3. Analyze historical demand behavior  
+4. Visualize trends and seasonality  
+5. Build forecasting models  
+6. Compare actual demand with predicted demand  
+7. Evaluate forecast accuracy  
+8. Present insights in dashboard-style visuals  
 
 ---
 
@@ -37,52 +67,97 @@ This project focuses on answering key business questions:
 - Trend and seasonality detection  
 - Demand forecasting workflow  
 - Actual vs. forecast comparison  
+- Forecast accuracy evaluation  
 - KPI reporting  
-- Visual business dashboard  
-- Forecast error analysis  
+- Dashboard-style visualization  
 - Automotive supply-chain use case  
 - Business-oriented interpretation of results  
 
 ---
 
-## Forecasting Workflow
+## Dashboard & Visual Analytics
 
-The project follows a complete data analytics and forecasting process:
+This project uses code-based visual documentation to present the forecasting logic, business flow, and demand patterns directly inside the GitHub README.
 
-1. Import and prepare demand data  
-2. Clean missing or inconsistent values  
-3. Analyze historical demand patterns  
-4. Visualize trends and seasonality  
-5. Build forecasting models  
-6. Compare actual demand with predicted demand  
-7. Evaluate forecast accuracy  
-8. Present insights through charts and dashboard visuals  
+### Monthly Demand Trend
 
-The focus is not only on prediction, but also on making the results understandable for business, production, and operations teams.
+```mermaid
+xychart-beta
+    title "Monthly Demand Trend"
+    x-axis ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    y-axis "Demand Units" 0 --> 1200
+    line [420, 460, 510, 590, 640, 700, 760, 820, 880, 940, 1010, 1080]
+```
+
+### Actual vs Forecasted Demand
+
+```mermaid
+xychart-beta
+    title "Actual vs Forecasted Demand"
+    x-axis ["Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    y-axis "Demand Units" 0 --> 1200
+    line [760, 820, 880, 940, 1010, 1080]
+    line [740, 800, 860, 930, 990, 1060]
+```
+
+### Forecasting Logic
+
+```mermaid
+flowchart TD
+    A[Historical Demand] --> B[Pattern Recognition]
+    B --> C[Trend Analysis]
+    B --> D[Seasonality Analysis]
+    C --> E[Forecast Model]
+    D --> E
+    E --> F[Predicted Demand]
+    F --> G[Inventory Planning]
+    F --> H[Production Planning]
+    F --> I[Supplier Coordination]
+```
+
+### Business Impact Flow
+
+```mermaid
+flowchart LR
+    A[Demand Forecast] --> B[Material Availability]
+    B --> C[Stable Production]
+    C --> D[Reduced Delays]
+    D --> E[Improved Supplier Coordination]
+    E --> F[Better Operational Decisions]
+```
 
 ---
 
-## Visual Insights
+## KPI Overview
 
-The project includes professional visualizations such as:
+| KPI | Purpose |
+|---|---|
+| Total Demand | Measures overall component demand volume |
+| Average Monthly Demand | Shows baseline demand level |
+| Demand Growth | Identifies increasing or decreasing demand |
+| Forecast Accuracy | Measures prediction quality |
+| Forecast Error | Highlights model deviation |
+| Peak Demand Period | Supports capacity planning |
+| Low Demand Period | Supports inventory optimization |
 
-- Demand trend over time  
-- Monthly demand development  
-- Actual vs. forecasted demand  
-- Forecast error analysis  
-- KPI overview  
-- Production planning insights  
-- Dashboard-style reporting  
+---
 
-Example visuals:
+## Business Value
 
-![Demand Trend](assets/demand-trend.png)
+This project demonstrates how data-driven forecasting can support automotive production and supply-chain operations.
 
-![Actual vs Forecast](assets/actual-vs-forecast.png)
+Potential business impact:
 
-![Forecast Dashboard](assets/forecast-dashboard.png)
+- Better demand visibility  
+- Improved production planning  
+- Reduced risk of material shortages  
+- Lower inventory waste  
+- More accurate supplier coordination  
+- Faster operational decision-making  
+- Clearer communication between data, production, and business teams  
+- Stronger planning for future component requirements  
 
-![KPI Overview](assets/kpi-overview.png)
+For an automotive supplier environment connected to Mercedes-Benz production scenarios, this type of forecasting can help align component availability with expected demand and production schedules.
 
 ---
 
@@ -99,42 +174,7 @@ Example visuals:
 - Jupyter Notebook  
 - CSV / Excel Data Processing  
 - Business Intelligence Reporting  
-
----
-
-## Business Value
-
-This project demonstrates how data-driven forecasting can support automotive production and supply-chain operations.
-
-Potential business impact:
-
-- Better demand visibility  
-- Improved production planning  
-- Reduced risk of material shortages  
-- Lower inventory waste  
-- More accurate supplier coordination  
-- Faster decision-making through visual reports  
-- Stronger connection between data analysis and operational planning  
-
-For an automotive supplier environment connected to Mercedes-Benz production scenarios, this type of forecasting can help align component availability with expected demand and production schedules.
-
----
-
-## Project Outcome
-
-The final result is a complete forecasting and reporting workflow that transforms historical demand data into actionable insights.
-
-This project highlights practical skills in:
-
-- Automotive demand forecasting  
-- Data preprocessing  
-- Exploratory data analysis  
-- Time-series analysis  
-- Forecast model evaluation  
-- KPI reporting  
-- Dashboard storytelling  
-- Python-based business analytics  
-- Data-driven decision-making  
+- Data Visualization  
 
 ---
 
@@ -143,22 +183,60 @@ This project highlights practical skills in:
 ```text
 YAZAKI/
 │
+├── assets/
+│   ├── Mercedes_Benz.jpg
+│   └── Yazaki Logo.png
+│
 ├── data/
 │   └── demand_data.csv
 │
 ├── notebooks/
 │   └── forecasting_analysis.ipynb
 │
-├── assets/
-│   ├── yazaki-logo.png
-│   ├── mercedes-logo.png
-│   ├── demand-trend.png
-│   ├── actual-vs-forecast.png
-│   ├── forecast-dashboard.png
-│   └── kpi-overview.png
-│
 ├── src/
 │   └── forecasting_model.py
 │
 ├── README.md
 └── requirements.txt
+```
+
+---
+
+## Skills Demonstrated
+
+- Automotive demand forecasting  
+- Supply-chain analytics  
+- Python data analysis  
+- Data cleaning and preprocessing  
+- Exploratory data analysis  
+- Time-series analysis  
+- Forecast visualization  
+- KPI reporting  
+- Dashboard storytelling  
+- Business intelligence  
+- Operational data analysis  
+- Technical documentation  
+
+---
+
+## Project Outcome
+
+The final result is a complete forecasting and reporting workflow that transforms historical demand data into actionable insights.
+
+The project shows how analytics can support automotive operations by helping teams understand demand behavior, anticipate future requirements, and improve production and inventory planning.
+
+---
+
+## Disclaimer
+
+This project is an educational and portfolio case study. Yazaki and Mercedes-Benz names, logos, and trademarks belong to their respective owners. This repository is not an official product of Yazaki or Mercedes-Benz.
+
+---
+
+## Author
+
+**Hani Mohamed Salah**  
+IT Operations & Data Analytics  
+Berlin, Germany  
+
+GitHub: [hany69x](https://github.com/hany69x)

@@ -6,11 +6,12 @@
 
 <br>
 
-<img src="[./assets/Mercedes_Benz.jpg" width="330"/>
+<img src="./Mercedes_Benz.jpg" alt="Mercedes-Benz Logo" width="330"/>
+
 
 <br><br>
 
-<img src="./assets/Yazaki Logo.png" alt="Yazaki Logo" width="330"/>
+<img src="./Yazaki%20Logo.png" alt="Yazaki Logo" width="330"/>
 
 <br><br>
 

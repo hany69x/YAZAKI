@@ -6,7 +6,7 @@
 
 <br>
 
-<img src="./assets/Mercedes_Benz.jpg" alt="Mercedes-Benz Logo" width="330"/>
+<img src="[./assets/Mercedes_Benz.jpg](https://github.com/hany69x/YAZAKI/blob/f9a41cc2c95fc874709ebbc33de2b2367e715861/Mercedes_Benz.jpg)" alt="Mercedes-Benz Logo" width="330"/>
 
 <br><br>
 

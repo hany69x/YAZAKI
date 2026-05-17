@@ -10,7 +10,7 @@
 
 <br><br>
 
-<img src="./assets/Yazaki%20Logo.png" alt="Yazaki Logo" width="330"/>
+<img src="./assets/Yazaki Logo.png" alt="Yazaki Logo" width="330"/>
 
 <br><br>
 
